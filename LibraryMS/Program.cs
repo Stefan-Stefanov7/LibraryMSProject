@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace LibraryMS
 {
     internal static class Program
@@ -8,6 +11,8 @@ namespace LibraryMS
         [STAThread]
         static void Main()
         {
+            DatabaseHelper.InitializeDatabase();
+
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
