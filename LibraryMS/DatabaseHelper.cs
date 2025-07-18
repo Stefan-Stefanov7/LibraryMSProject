@@ -92,5 +92,63 @@ namespace LibraryMS
                 Console.WriteLine("Database already exists.");
             }
         }
+
+        public static bool UserExists(string email)
+        {
+            using (var conn = new SQLiteConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT COUNT(*) FROM Users WHERE email = @Email";
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    long count = (long)cmd.ExecuteScalar();
+                    return count > 0;
+                }
+            }
+        }
+
+        public static bool RegisterUser(string fullName, string email, string passwordHash)
+        {
+            if (UserExists(email))
+                return false;
+
+            using (var conn = new SQLiteConnection(connectionString))
+            {
+                conn.Open();
+
+                string insertQuery = @"
+                    INSERT INTO Users (name, email, password_hash, role_id)
+                    VALUES (@Name, @Email, @PasswordHash, 2);
+                ";
+
+                using (var cmd = new SQLiteCommand(insertQuery, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Name", fullName);
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@PasswordHash", passwordHash);
+                    int rows = cmd.ExecuteNonQuery();
+                    return rows > 0;
+                }
+            }
+        }
+
+        public static bool VerifyLogin(string email, string passwordHash)
+        {
+            using (var conn = new SQLiteConnection(connectionString))
+            {
+                conn.Open();
+
+                string query = "SELECT COUNT(*) FROM Users WHERE email = @Email AND password_hash = @PasswordHash";
+
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@PasswordHash", passwordHash);
+                    long count = (long)cmd.ExecuteScalar();
+                    return count > 0;
+                }
+            }
+        }
     }
 }

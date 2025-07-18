@@ -18,7 +18,6 @@ C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\bin\Debug\net8.0-windo
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.csproj.AssemblyReference.cache
-C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.Form1.resources
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.csproj.GenerateResource.cache
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.AssemblyInfoInputs.cache
@@ -31,3 +30,4 @@ C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windo
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.pdb
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.genruntimeconfig.cache
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\ref\LibraryMS.dll
+C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\libraryMS.RegisterForm.resources
