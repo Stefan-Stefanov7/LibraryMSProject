@@ -1,5 +1,6 @@
 ﻿using LibraryMS;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace libraryMS
@@ -121,6 +122,7 @@ namespace libraryMS
             linkLogin.TabIndex = 10;
             linkLogin.TabStop = true;
             linkLogin.Text = "Already registered?";
+            linkLogin.LinkClicked += linkLogin_LinkClicked;
             // 
             // RegisterForm
             // 
@@ -137,16 +139,11 @@ namespace libraryMS
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "RegisterForm";
-            Text = "Form1";
-            Load += Form1_Load;
+            Text = "Register";
             ResumeLayout(false);
             PerformLayout();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         private Label label1;
         private Label label2;
         private Label label3;
@@ -188,12 +185,19 @@ namespace libraryMS
             if (success)
             {
                 MessageBox.Show("Регистрацията беше успешна!");
-                this.Close(); 
+                this.Close();
+                LoginForm loginForm = new LoginForm();
+                loginForm.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Потребител с този имейл вече съществува.");
             }
+        }
+
+        private void linkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

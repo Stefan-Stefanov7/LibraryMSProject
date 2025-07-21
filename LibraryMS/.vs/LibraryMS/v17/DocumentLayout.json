@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|c:\\users\\user\\documents\\github\\librarymsproject\\libraryms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|c:\\users\\user\\documents\\github\\librarymsproject\\libraryms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|c:\\users\\user\\documents\\github\\librarymsproject\\libraryms\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:securityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|c:\\users\\user\\documents\\github\\librarymsproject\\libraryms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|c:\\users\\user\\documents\\github\\librarymsproject\\libraryms\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6693ACBF-7071-4C76-B223-8249A3ECBB79}|LibraryMS.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +42,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs",
+              "RelativeToolTip": "RegisterForm.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAuwMkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:05:24.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:05:23.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:05:40.673Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\DatabaseHelper.cs",
+              "RelativeToolTip": "DatabaseHelper.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAA7wJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T05:31:44.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:13:17.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T05:33:44.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SecurityHelper.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\SecurityHelper.cs",
               "RelativeDocumentMoniker": "SecurityHelper.cs",
@@ -47,53 +135,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "RegisterForm.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:05:23.853Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\RegisterForm.cs",
-              "RelativeToolTip": "RegisterForm.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwI8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:05:24.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\DatabaseHelper.cs",
-              "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T05:31:44.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\LibraryMSProject\\LibraryMS\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T05:33:44.441Z"
+              "WhenOpened": "2025-07-21T04:19:11.06Z"
             }
           ]
         }

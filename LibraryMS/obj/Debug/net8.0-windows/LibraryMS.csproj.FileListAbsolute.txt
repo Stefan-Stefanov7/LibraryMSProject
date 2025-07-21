@@ -31,3 +31,4 @@ C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windo
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.genruntimeconfig.cache
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\ref\LibraryMS.dll
 C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\libraryMS.RegisterForm.resources
+C:\Users\User\Documents\GitHub\LibraryMSProject\LibraryMS\obj\Debug\net8.0-windows\LibraryMS.LoginForm.resources

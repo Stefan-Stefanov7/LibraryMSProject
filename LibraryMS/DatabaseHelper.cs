@@ -150,5 +150,33 @@ namespace LibraryMS
                 }
             }
         }
+
+        public static User GetUserByEmail(string email)
+        {
+            using (var conn = new SQLiteConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT user_id, name, email, password_hash, role_id FROM Users WHERE email = @Email";
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new User
+                            {
+                                Id = Convert.ToInt32(reader["user_id"]),
+                                Name = reader["name"].ToString(),
+                                Email = reader["email"].ToString(),
+                                Password = reader["password_hash"].ToString(),
+                                RoleId = Convert.ToInt32(reader["role_id"])
+                            };
+                        }
+                    }
+                }
+            }
+            return null;
+        }
     }
 }
